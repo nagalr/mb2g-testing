@@ -9,7 +9,7 @@ class JavaHelloWorldTest {
     @Test
     void getHello() {
         JavaHelloWorld javaHelloWorld = new JavaHelloWorld();
-
         assertEquals("Hello World", javaHelloWorld.getHello());
+        System.out.println("In JUnit test");
     }
 }
